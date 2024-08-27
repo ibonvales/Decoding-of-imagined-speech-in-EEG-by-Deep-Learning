@@ -1,4 +1,27 @@
-# Decoding-of-imagined-speech-in-EEG-by-Deep-Learning
-This repository has all the codes used in the decoding of imagined speech in EEG. The "Datos" folders contein all the analysis done in the model training (Also a Drive with the Accuracy and F1 Score of all condition and all frequency bands. Moreover, the Stadistical Analysis folder contains all the statisitical analysis done in the three types of objectives: Production decoding (Rest vs Imagined vs Real), Vowel Decoding (A,E,I,O,U) and Semantic Decoding (Clothes, Animals, Musical Instruments, Food, Kitchen elements and Body Parts). The EEG Prepro folder has the used code with MNE library to obtain the Morlet Wavelets of all vowels, semantic categories and type of production, across all brain oscillations. 
+This repository contains all the code and resources used for decoding imagined speech from EEG data using deep learning techniques. Below is a detailed description of the folder structure and the contents of this repository:
 
-As of June 13, 2024, the preregistration for the experiment, which will be conducted next month along with its subsequent data analysis and preprocessing, has been uploaded.
+Folder Structure
+Datos/
+Contents: This folder contains all the data analysis related to model training. It includes:
+Drive: Contains accuracy and F1 scores for all conditions and frequency bands.
+Statistical Analysis: This subfolder includes statistical analyses for three main objectives:
+Production Decoding: Comparing Rest vs. Imagined vs. Real speech.
+Vowel Decoding: Analysis of the five Spanish vowels (A, E, I, O, U).
+Semantic Decoding: Analysis of semantic categories such as Clothes, Animals, Musical Instruments, Food, Kitchen Items, and Body Parts.
+EEG_Prepro/
+Contents: This folder includes the code used with the MNE library to preprocess EEG data. It contains scripts for:
+Obtaining Morlet Wavelets for all vowels, semantic categories, and types of production.
+Analyzing across various brain oscillations.
+Additional Information
+As of June 13, 2024, the preregistration for the upcoming experiment, which will commence next month, has been completed. The preregistration document, along with plans for data analysis and preprocessing, has been uploaded to this repository.
+Update: This work is already finished. 
+
+Usage
+Data Analysis: Refer to the Datos/ folder for detailed analysis and results of the model training.
+Preprocessing Code: Use scripts from the EEG_Prepro/ folder for EEG data preprocessing.
+Statistical Analysis: Check the Statistical Analysis subfolder for insights into production, vowel, and semantic decoding.
+How to Contribute
+Feel free to fork this repository and contribute to the ongoing research. If you have any suggestions or find any issues, please open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
